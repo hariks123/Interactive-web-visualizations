@@ -28,7 +28,8 @@ function Gauze(SampleID) {
         }
     }]
     //Define Layout for Gauze
-    var glayout={ width: 600, height: 450, margin: { t: 0, b: 0 },name:'Scrubs per Week' }
+    var glayout={ //width: 600, height: 450, 
+      margin: { t: 0, b: 0 },name:'Scrubs per Week' }
     Plotly.newPlot("gauge",gdata,glayout)
   
     })
