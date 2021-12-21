@@ -9,7 +9,7 @@ function Gauze(SampleID) {
       var gdata=[{
         domain: { x: [0, 1], y: [0, 1] },
         value:wfreq,
-        title:"<b>Belly Button Washing Frequency</b><br><p>Scrubs Per Week<\p>",
+        title:"<b>Belly Button Washing Frequency</b><br>Scrubs Per Week",
         type:'indicator',
         mode:'gauge+number',
         gauge:{
