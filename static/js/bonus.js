@@ -9,7 +9,7 @@ function Gauze(SampleID) {
       var gdata=[{
         domain: { x: [0, 1], y: [0, 1] },
         value:wfreq,
-        title:'<b> Belly Button Washing Frequency</b> <br>Scrubs Per Week',
+        title:'<b> Belly Button Washing Frequency</b> <hr>Scrubs Per Week',
         type:'indicator',
         mode:'gauge+number',
         gauge:{
@@ -28,7 +28,7 @@ function Gauze(SampleID) {
         }
     }]
     //Define Layout for Gauze
-    var glayout={ //width: 600, height: 450, 
+    var glayout={ width: 600, height: 450, 
       margin: { t: 0, b: 0 },name:'Scrubs per Week' }
     Plotly.newPlot("gauge",gdata,glayout)
   
